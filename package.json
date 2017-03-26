@@ -1,0 +1,25 @@
+{
+  "name": "qatype.js",
+  "version": "1.0.0",
+  "description": "Simple JavaScript type checking module. Returns a Boolean or type name for each type check.",
+  "main": "dist/qatype.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartFlash/qatype.git"
+  },
+  "keywords": [
+    "axis",
+    "qatype",
+    "Javascript",
+    "type"
+  ],
+  "author": "ty4z2008",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartFlash/qatype/issues"
+  },
+  "homepage": "https://github.com/smartFlash/qatype#readme"
+}
