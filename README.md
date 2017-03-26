@@ -26,6 +26,7 @@ npm install qatype.js
 ```
 
 ### CDN
+
 * [https://unpkg.com/qatype.js/dist/qatype.js](https://unpkg.com/qatype.js/dist/qatype.js)
 * [https://unpkg.com/qatype.js/dist/qatype.min.js](https://unpkg.com/qatype.js/dist/qatype.min.js)
 
