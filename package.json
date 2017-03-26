@@ -1,6 +1,6 @@
 {
   "name": "qatype.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple JavaScript type checking module. Returns a Boolean or type name for each type check.",
   "main": "dist/qatype.js",
   "scripts": {
