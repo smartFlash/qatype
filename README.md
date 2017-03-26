@@ -1,5 +1,8 @@
-# qatype
+# qatype.js
+
 A Simple JavaScript type checking module for JavaScript that returns a `Boolean` or `type name` for each type check.
+
+### Usage
 
 ```js
 qatype.isArray([1,2]); // true
