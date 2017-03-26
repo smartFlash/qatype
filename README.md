@@ -19,6 +19,15 @@ qatype.isUndefined(); // true
 // Usage the similar with above code
 qatype.type({}); //Object,It will return type name for object
 ```
+### Install
+
+```js
+npm install qatype.js
+```
+
+### CDN
+* [https://unpkg.com/qatype.js/dist/qatype.js](https://unpkg.com/qatype.js/dist/qatype.js)
+* [https://unpkg.com/qatype.js/dist/qatype.min.js](https://unpkg.com/qatype.js/dist/qatype.min.js)
 
 ### Manual installation
 Ensure you're using the files from the dist directory (contains compiled production-ready code). Ensure you place the script before the closing `</body>` tag.
