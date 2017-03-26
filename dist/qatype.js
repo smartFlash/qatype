@@ -25,8 +25,8 @@
      * Detect Object type
      * @return {String} Array,Object...
      */
-    function _type() {
-        return Object.prototype.toString.call(this).slice(8, -1);
+    function _type(obj) {
+        return Object.prototype.toString.call(obj).slice(8, -1);
     }
     /**
      * Use qatype.isFunction(obj) you can detect this type for object
