@@ -47,7 +47,7 @@
         var type = _types[i];
         qatype['is' + type] = (function(self) {
             return function(obj) {
-                return _type.call(obj) === self;
+                return _type(obj) === self;
             };
         })(type);
     }
@@ -57,7 +57,7 @@
      * @return {String} ...
      */
     qatype['type'] = function(obj) {
-        return _type.call(obj);
+        return _type(obj);
     }
 
     return qatype;
