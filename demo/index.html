@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>qatype.js</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			width: 100%;
+		}
+		.container{
+			padding: 30px;
+		}
+		.code {
+			text-align: left;
+			border: 1px solid #eee;
+			background: #eee;
+			display: block;
+			position: relative;
+			margin-bottom: 30px;
+			width: 100%;
+			padding: 10px;
+		}
+
+		.code pre {
+			white-space: normal;
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+
+<body class="container">
+	<code class="code">
+		<pre>
+			qatype.isArray([1, 2]); // true
+		</pre>
+
+		<pre>
+			qatype.isObject({
+				a: 1
+			}); // true
+		</pre>
+		<pre>qatype.isString('test string'); // true</pre>
+
+		<pre>qatype.isDate(new Date()); // true</pre>
+
+		<pre>qatype.isRegExp(/^qatype/i); // true</pre>
+
+		<pre>qatype.isFunction(function() {}); // true</pre>
+
+		<pre>qatype.isBoolean(true); // true</pre>
+
+		<pre>qatype.isNumber(8); // true</pre>
+
+		<pre>qatype.isNull(null); // true</pre>
+
+		<pre>qatype.isUndefined(); // true</pre>
+	</code>
+	<code class="code">
+		<pre>
+			// Usage the similar with above code
+		</pre>
+		<pre>
+			qatype.type({}); //Object
+		</pre>
+	</code>
+	<script type="text/javascript" src="../dist/qatype.js"></script>
+	<script type="text/javascript">
+		qatype.isArray([1, 2]); // true
+		qatype.isObject({
+			a: 1
+		}); // true
+		qatype.isString('test string'); // true
+		qatype.isDate(new Date()); // true
+		qatype.isRegExp(/^qatype/i); // true
+		qatype.isFunction(function() {}); // true
+		qatype.isBoolean(true); // true
+		qatype.isNumber(8); // true
+		qatype.isNull(null); // true
+		qatype.isUndefined(); // true
+
+		qatype.type({}); //Object
+	</script>
+</body>
+
+</html>
