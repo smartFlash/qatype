@@ -1,6 +1,6 @@
 # qatype.js
 
-A Simple JavaScript type checking module for JavaScript that returns a `Boolean` or `type name` for each type check.
+A Simple JavaScript type checking module for JavaScript that returns a `Boolean` or `type name` for each type check. It's small (< 0.5kb gzip)
 
 ### Usage
 
