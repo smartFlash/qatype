@@ -1,7 +1,7 @@
 # qatype.js
 
 [![node](https://img.shields.io/node/v/qatype.js.svg)](https://www.npmjs.com/package/qatype.js)
-[![Build Status](https://travis-ci.org/smartFlash/qatype.js.svg?branch=master)](https://travis-ci.org/smartFlash/qatype.js)
+[![Build Status](https://travis-ci.org/smartFlash/qatype.svg?branch=master)](https://travis-ci.org/smartFlash/qatype)
 [![npm](https://img.shields.io/npm/v/qatype.js.svg)](https://www.npmjs.com/package/qatype.js)
 [![npm](https://img.shields.io/npm/dt/qatype.js.svg)](https://www.npmjs.com/package/qatype.js)
 [![Github file size](https://img.shields.io/github/size/smartFlash/qatype/dist/qatype.min.js.svg)](https://github.com/smartFlash/qatype/dist/qatype.min.js)
