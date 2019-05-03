@@ -21,6 +21,8 @@ qatype.isBoolean(true); // true
 qatype.isNumber(8); // true
 qatype.isNull(null); // true
 qatype.isUndefined(); // true
+qatype.isZero(0); // true
+qatype.isPromise((new Promise(resolve,reject)=>{resolve(true)}); // true
 
 // Usage the similar with above code
 qatype.type({}); //Object,It will return type name for object

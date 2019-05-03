@@ -54,11 +54,27 @@
     /**
      * Detect type for Object. It will return type name
      * @param {Mixed} Object
-     * @return {String} ...
+     * @return {Boolean} ...
      */
     qatype['type'] = function(obj) {
         return _type(obj);
-    }
+    };
+    /**
+     * Detect type for Object is Promise
+     * @param  {any} obj
+     * @return {Boolean}
+     */
+    qatype['isPromise'] = function(obj) {
+        return (obj instanceof Promise);
+    };
+    /**
+     * Detect type for Object is zero
+     * @param  {any} obj
+     * @return {Boolean}
+     */
+    qatype['isZero'] = function(obj) {
+        return Number(obj) === 0;
+    };
 
     return qatype;
 }));
