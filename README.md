@@ -6,7 +6,7 @@
 [![npm](https://img.shields.io/npm/dt/qatype.js.svg)](https://www.npmjs.com/package/qatype.js)
 [![Github file size](https://img.shields.io/github/size/smartFlash/qatype/dist/qatype.min.js.svg)](https://github.com/smartFlash/qatype/dist/qatype.min.js)
 
-A Simple JavaScript type checking module for JavaScript that returns a `Boolean` or `type name` for each type check. It's small (< 0.5kb gzip)
+A Simple JavaScript type checking module for JavaScript that returns a `Boolean` or `type name` for each type check. It's small (< 0.6kb gzip)
 
 ### Usage
 
